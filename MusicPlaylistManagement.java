@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MusicPlaylistManagement {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        String[] playlist = new String[100]; // Array to store up to 100 songs
+        String[] playlist = new String[100]; 
         int songCount = 0;
         boolean running = true;
 
@@ -19,7 +19,7 @@ public class MusicPlaylistManagement {
             System.out.print("Choose an option (1-5): ");
             
             int choice = input.nextInt();
-            input.nextLine(); // Consume newline
+            input.nextLine(); 
 
             switch (choice) {
                 case 1:
